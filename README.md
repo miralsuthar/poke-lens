@@ -3,7 +3,9 @@
 The idea is to create a smart contract that rewards you with an evolved NFT if you accomplish the checkpoints.
 
 Article: [Understanding LensAPI-Oracle By Phala Network](https://0xkeshav.hashnode.dev/understanding-lensapi-oracle-by-phala-network)
+
 Contract: https://github.com/keshavsharma25/PokeLens-Contract
+
 Attestor-Address: 0x6888a2b5d5b5276e3702bf2dc8d61df5c3e0092d
 
 <p align="center">
