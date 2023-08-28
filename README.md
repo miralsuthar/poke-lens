@@ -29,7 +29,7 @@ The image below shows different kinds of NFT you get if you choose a particular 
 
 
 
-We tried taking an innovative approach to getting the features from Oracle. 
+We tried taking an innovative approach to getting the features from Oracle (explained further in article). 
 Our transform function is 
 ```js
 function transform(arg) {
