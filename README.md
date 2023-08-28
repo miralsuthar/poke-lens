@@ -7,10 +7,10 @@ The idea is to create a smart contract that rewards you with an evolved NFT if y
 </p>
 
 There are 4 different categories of Pokemon:
-- Pyroflame (Fire)
-- Aquatide (Water)
-- Volttide (Electricity)
 - Floraforge (Grass)
+- Aquatide (Water)
+- Pyroflame (Fire)
+- Volttide (Electricity)
 
 <p align="center">
 <img src="https://github.com/miralsuthar/poke-lens/assets/76066586/efe7e31e-690b-4e45-9279-03b1b7edc4f3">
