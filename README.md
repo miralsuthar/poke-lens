@@ -1,40 +1,29 @@
-## Getting Started
+# PokeLens
 
-Create a project using this example:
+The idea is to create a smart contract that rewards you with an evolved NFT if you accomplish the checkpoints.
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
+<p align="center">
+<img src="https://github.com/miralsuthar/poke-lens/assets/76066586/1c045a71-a16f-4b9d-a091-448285f916a1">
+</p>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+There are 4 different categories of Pokemon:
+- Pyroflame (Fire)
+- Aquatide (Water)
+- Volttide (Electricity)
+- Floraforge (Grass)
 
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+<p align="center">
+<img src="https://github.com/miralsuthar/poke-lens/assets/76066586/efe7e31e-690b-4e45-9279-03b1b7edc4f3">
+</p>
 
-## Environment Variables
+Each category has 3 different levels:
+- Level 0 is the bare minimum that can be claimed by an account if the Lens Profile has less than 10 total followers, 50 total posts, 50 total comments, 10 total mirrors, and 10 total collects.
+- Level 1 can evolve from the prior if the profile is in the range of 10-50 total followers, 50-100 total posts and comments, and 10-20 total mirrors and collects.
+- Level 2 can be acquired if the profile is above 50 total followers, 100 total posts and comments, and 20 total mirrors and collects.
 
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
+The image below shows different kinds of NFT you get if you choose a particular Pokemon category through a Quiz provided you have a Lens Profile. Then based on your followers, posts, comments, mirrors, and collections, you can get the NFT of a particular level of the category you got through the quiz.
 
-## Deploy to IPFS
+Contracts - https://github.com/keshavsharma25/PokeLens-Contract
 
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-yarn deploy
-```
-
-## Learn More
-
-To learn more about thirdweb and Next.js, take a look at the following resources:
-
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Templates](https://thirdweb.com/templates)
-
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+---
+**Note** - Due to some sort of error, because of the contract interaction with the NFT, we were not able to complete the whole project and as we wanted to submit something along the way, we have submitted our learnings through his article as well - [Understanding LensAPI-Oracle By Phala Network](https://0xkeshav.hashnode.dev/understanding-lensapi-oracle-by-phala-network)
