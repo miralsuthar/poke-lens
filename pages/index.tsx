@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   const address = useAddress();
 
   const { loading, data, error } = useQuery(GET_PROFILE, {
-    variables: { id: "0x524C91dd7902827cb51119F018FD560237985d3A" },
+    variables: { id: address },
   });
 
   if (loading) return <h1>Loading...</h1>;
