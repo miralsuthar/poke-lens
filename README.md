@@ -8,6 +8,8 @@ Contract: https://github.com/keshavsharma25/PokeLens-Contract
 
 Attestor-Address: 0x6888a2b5d5b5276e3702bf2dc8d61df5c3e0092d
 
+## Introduction
+
 <p align="center">
 <img src="https://github.com/miralsuthar/poke-lens/assets/76066586/1c045a71-a16f-4b9d-a091-448285f916a1">
 </p>
