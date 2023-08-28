@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useQuery } from "@apollo/client";
 import { GET_PROFILE } from "../utils/api";
 import LensProfile from "../components/LensProfile";

@@ -1,8 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 const LensProfile = ({ data }: { data: any }) => {
   return (
     <div className="flex items-center gap-5 border border-white bg-gray-900 p-3 rounded-xl">
       <div className="w-12 h-12 rounded-full overflow-hidden">
         <img
+          alt="Image"
           className="w-full h-full object-cover"
           src={data?.defaultProfile?.picture?.original.url}
         />
