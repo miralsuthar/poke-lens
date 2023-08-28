@@ -59,4 +59,4 @@ function transform(arg) {
 ```
 
 ---
-**Note** - Due to some sort of error, because of the contract interaction with the NFT, we were not able to complete the whole project and as we wanted to submit something along the way, we have submitted our learnings through his article as well (mentioned above).
+**Note** - Due to some sort of error, because of the contract interaction with the NFT, we were not able to complete the whole project and as we wanted to submit something along the way, we have submitted our learnings through the article as well (mentioned above).
